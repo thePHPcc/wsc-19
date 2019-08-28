@@ -7,8 +7,10 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
+                'event' => '/Event.php',
                 'licenserecognizedevent' => '/LicenseRecognizedEvent.php',
                 'paytollcommand' => '/PayTollCommand.php',
+                'paytollcommandhandler' => '/PayTollCommandHandler.php',
                 'tollprepaidevent' => '/TollPrepaidEvent.php'
             );
         }

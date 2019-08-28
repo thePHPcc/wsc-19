@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-class LicenseRecognizedEvent
+class LicenseRecognizedEvent implements Event
 {
     /**
      * @var string
