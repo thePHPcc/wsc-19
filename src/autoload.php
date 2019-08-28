@@ -8,7 +8,8 @@ spl_autoload_register(
         if ($classes === null) {
             $classes = array(
                 'licenserecognizedevent' => '/LicenseRecognizedEvent.php',
-                'paytollcommand' => '/PayTollCommand.php'
+                'paytollcommand' => '/PayTollCommand.php',
+                'tollprepaidevent' => '/TollPrepaidEvent.php'
             );
         }
         $cn = strtolower($class);
